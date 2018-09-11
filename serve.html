@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>标价</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="http://apicet.shsbip.com/favicon.ico">
+    <script src="https://cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            $('#weixin').on('click',function () {
+                $('#weixininner').toggleClass('active');
+            })
+            $('.navlist li').on('click',function () {
+                $('.navlist li').removeClass('active');
+                $(this).addClass('active');
+                $('.islist li').removeClass('active');
+                $('.islist>li').eq($(this).index()).addClass('active');
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="header-inner">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li class="erji"><a href="">服务&产品</a>
+                <ul class="linav">
+                    <li><a href="">服务介绍</a></li>
+                    <li><a href="">产品介绍</a></li>
+                </ul>
+            </li>
+            <li><a href=""> 新闻资讯</a></li>
+            <li class="erji"><a href="">关于标架</a>
+                <ul class="linav">
+                    <li><a href="">公司介绍</a></li>
+                    <li><a href="">联系我们</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="serveinner">
+    <div class="iiner">
+        <div class="crumbs">
+            当前位置：<a href="">首页</a> > <a href="">服务&产品 </a>> <span>服务</span>
+        </div>
+        <ul class="navlist">
+            <li class="active">国内商标</li>
+            <li>国际商标</li>
+            <li>专利申请</li>
+            <li>版权申请</li>
+        </ul>
+        <ul class="islist">
+            <li class="active">
+                <ul class="innerlist">
+                    <li>标准商标注册</li>
+                    <li>担保注册</li>
+                    <li>集体商标注册</li>
+                    <li>证明商标注册</li>
+                    <li>补发商标注册证</li>
+                    <li>商标转让</li>
+                    <li>商标续展</li>
+                    <li>商标宽展</li>
+                    <li>驳回复审</li>
+                    <li>无效宣告答辩</li>
+                    <li>无效宣告申请</li>
+                    <li>异议申请</li>
+                    <li>商标变更</li>
+                    <li>出具商标证明</li>
+                    <li>商标使用许可备案</li>
+                    <li>撤三申请</li>
+                    <li>撤三答辩</li>
+                    <li>异议答辩</li>
+                    <li>转让证明</li>
+                    <li>续展证明</li>
+                    <li>变更证明</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="innerlist">
+                    <li>美国</li>
+                    <li>加拿大</li>
+                    <li>欧盟</li>
+                    <li>英国</li>
+                    <li>法国</li>
+                    <li>俄罗斯</li>
+                    <li>意大利</li>
+                    <li>西班牙</li>
+                    <li>瑞典</li>
+                    <li>德国</li>
+                    <li>香港</li>
+                    <li>澳门</li>
+                    <li>台湾</li>
+                    <li>韩国</li>
+                    <li>新加坡</li>
+                    <li>菲律宾</li>
+                    <li>越南</li>
+                    <li>马来西亚</li>
+                    <li>泰国</li>
+                    <li>印度尼西亚</li>
+                    <li>印度</li>
+                    <li>日本</li>
+                    <li>澳大利亚</li>
+                    <li>新西兰</li>
+                    <li>墨西哥</li>
+                    <li>巴西</li>
+
+                </ul>
+            </li>
+            <li>
+                <ul class="innerlist">
+                    <li>发明专利申请</li>
+                    <li>实用新型专利申请</li>
+                    <li>外观设计专利申请</li>
+                    <li>专利端口合作</li>
+                    <li>专利检索报告</li>
+                    <li>录著事项变更</li>
+                    <li>代理机构变更</li>
+                    <li>优先权请求</li>
+                    <li>恢复权利</li>
+                    <li>专利登记簿</li>
+                    <li>专利权评价报告</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="innerlist">
+                    <li>文字</li>
+                    <li>口述</li>
+                    <li>音乐</li>
+                    <li>戏剧</li>
+                    <li>曲艺</li>
+                    <li>舞蹈</li>
+                    <li>杂技</li>
+                    <li>美术</li>
+                    <li>摄影</li>
+                    <li>设计图</li>
+                    <li>地图</li>
+                    <li>模型</li>
+                    <li>建筑</li>
+                    <li>电影</li>
+                    <li>电视剧</li>
+                    <li>视频</li>
+                    <li>汇编</li>
+                    <li>多媒体</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div class="footer">
+    <div class="footerinner">
+        <ul class="footertop">
+            <li>
+                <img src="images/icons1.png" alt="">
+                <div>
+                    <span>品质服务</span>
+                    <p>服务贴心、周到<br>
+                        客户满意度高达98.51%</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/icons2.png" alt="">
+                <div>
+                    <span>快速响应</span>
+                    <p>1对1专属顾问<br>
+                        全天24小时随时沟通</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/icons3.png" alt="">
+                <div>
+                    <span>自主交易</span>
+                    <p>线上互动交易<br>
+                        方便、快捷更可靠</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/icons4.png" alt="">
+                <div>
+                    <span>售后保障</span>
+                    <p>强大售后团队<br>
+                        优质的服务，让您无后顾之忧</p>
+                </div>
+            </li>
+        </ul>
+        <div class="footerinner">
+            <ul class="footerleft">
+                <li>
+                    <a href="">首页</a>
+                </li>
+                <li>
+                    <a href=""> 服务及产品</a>
+                    <a href=""> 服务介绍</a>
+                    <a href="">产品介绍</a>
+                </li>
+                <li>
+                    <a href="">新闻资讯</a>
+                </li>
+                <li>
+                    <a href="">关于标架</a>
+                    <a href="">公司介绍</a>
+                    <a href="">联系我们</a>
+                </li>
+            </ul>
+            <div class="footerright">
+                <div class="ipone">
+                    <span class="color">免费服务热线</span>
+                    <p>400-008-1788</p>
+                    <span>服务时间：9:00-21:00 </span>
+                </div>
+                <div class="img">
+                    <span><a href="https://weibo.com/u/6536855650" target="_blank"><img src="images/sha5.png" alt=""></a></span>
+                    <span id="weixin"><img src="images/sha1.png" alt="">
+                            <div class="weixin" id="weixininner">
+                                <img src="images/weixin.png" alt="">
+                                <span>微信：biaojiakeji</span>
+                            </div>
+                        </span>
+                    <span><a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1251348945" target="_blank"><img src="images/sha2.png" alt=""></a></span>
+                </div>
+            </div>
+            <div style="clear: both"></div>
+            <div class="a">
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+                <a href="">上海商标转让</a>|
+            </div>
+            <p class="color">Copyright  上海标架信息科技有限公司    沪ICP备86101100号-1</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
